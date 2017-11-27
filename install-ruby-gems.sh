@@ -2,4 +2,3 @@
 
 gem install sass
 gem install compass
-gem install cocoapods
