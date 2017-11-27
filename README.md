@@ -1,4 +1,4 @@
-# Benoît's dotfiles ❤ ~/
+# Benoîtg's dotfiles ~/
 
 My personal apps, dotfiles, preferences & defaults for macOS.
 
