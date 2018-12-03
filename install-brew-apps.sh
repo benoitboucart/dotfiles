@@ -26,6 +26,7 @@ brew cask install messenger
 brew cask install whatsapp
 #brew cask install transmission
 brew cask install spectacle
+brew cask install graphql-playground
 #brew cask install viscosity
 brew cask install sequel-pro-nightly
 brew cask install sketch
