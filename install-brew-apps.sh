@@ -21,7 +21,7 @@ brew cask install firefox
 # brew cask install phpstorm
 brew cask install spotify
 brew cask install spotify-notifications
-brew cask install skype
+# brew cask install skype
 brew cask install messenger
 brew cask install whatsapp
 #brew cask install transmission
