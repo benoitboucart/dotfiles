@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+# #!/usr/bin/env bash
 
-gem install sass
-gem install compass
+# gem install sass
+# gem install compass
