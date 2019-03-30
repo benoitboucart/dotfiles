@@ -43,8 +43,8 @@ sudo spctl --master-disable
 # defaults write -g com.apple.keyboard.fnState -bool true
 #
 # # Menu bar: show remaining battery time as percentage
-# defaults write com.apple.menuextra.battery ShowPercent -bool true
-#
+defaults write com.apple.menuextra.battery ShowPercent -bool true
+
 # # Expand save panel by default
 # defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 # defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
