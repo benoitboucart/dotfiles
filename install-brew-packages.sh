@@ -43,6 +43,7 @@ brew install zsh-completions
 # brew install docker-clean
 # brew install dos2unix
 # brew install watch
+brew install yarn
 brew install mas
 brew install cask
 # brew install speedtest-cli
