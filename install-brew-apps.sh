@@ -10,57 +10,58 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew tap caskroom/versions
 
 # Install some apps
-# brew cask install dropbox
-# brew cask install google-chrome
-brew cask install box-sync
-# brew cask install google-backup-and-sync
-brew cask install firefox
-#brew cask install keepingyouawake
-#brew cask install docker
-# brew cask install atom
-# brew cask install phpstorm
-brew cask install spotify
-brew cask install spotify-notifications
-# brew cask install skype
-brew cask install messenger
-brew cask install whatsapp
-#brew cask install transmission
-brew cask install spectacle
-brew cask install graphql-playground
-#brew cask install viscosity
-brew cask install sequel-pro-nightly
-brew cask install sketch
-#brew cask install zeplin
-#brew cask install kibako
-brew cask install alfred2
-#brew cask install knock
-#brew cask install application-loader
-# brew cask install rescuetime
-brew cask install vlc
-brew cask install sourcetree
-#brew cask install bartender
-#brew cask install transmit4
-#brew cask install steam
-#brew cask install etcher
-#brew cask install macdown
-#brew cask install kitematic
-#brew cask install media-converter
-#brew cask install gifcapture
-# brew cask install appcleaner
-#brew cask install virtualbox
-#brew cask install whatpulse
-#brew cask install zoomus
-#brew cask install insomnia
-#brew cask install arduino
-#brew cask install dockstation
-#brew cask install rocket-chat
-# brew cask install boostnote
-# brew cask install station
+# brew install dropbox --cask
+brew install google-chrome --cask
+#brew install box-sync --cask
+# brew install google-backup-and-sync --cask
+brew install firefox --cask
+#brew install keepingyouawake --cask
+#brew install docker --cask
+# brew install atom --cask
+# brew install phpstorm --cask
+brew install spotify --cask
+#brew install spotify-notifications --cask
+# brew install skype --cask
+#brew install messenger --cask
+brew install whatsapp --cask
+#brew install transmission --cask
+brew install spectacle --cask
+#brew install graphql-playground --cask
+#brew install viscosity --cask
+#brew install sequel-pro-nightly --cask
+#brew install sketch --cask
+brew install figma --cask
+#brew install zeplin --cask
+#brew install kibako --cask
+#brew install alfred2 --cask
+#brew install knock --cask
+#brew install application-loader --cask
+# brew install rescuetime --cask
+brew install vlc --cask
+brew install sourcetree --cask
+#brew install bartender --cask
+#brew install transmit4 --cask
+#brew install steam --cask
+#brew install etcher --cask
+#brew install macdown --cask
+#brew install kitematic --cask
+#brew install media-converter --cask
+#brew install gifcapture --cask
+# brew install appcleaner --cask
+#brew install virtualbox --cask
+#brew install whatpulse --cask
+#brew install zoomus --cask
+#brew install insomnia --cask
+#brew install arduino --cask
+#brew install dockstation --cask
+#brew install rocket-chat --cask
+# brew install boostnote --cask
+# brew install station --cask
 
 # Extensions & others
-#brew cask install padbury-clock
-#brew cask install colorpicker-skalacolor
-#brew cask install ngrok
+#brew install padbury-clock --cask
+#brew install colorpicker-skalacolor --cask
+#brew install ngrok --cask
 
 # Cleanup
 brew cleanup

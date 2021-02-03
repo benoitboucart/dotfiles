@@ -6,4 +6,4 @@
 # npm install -g bower
 # npm install -g webpack
 # npm install -g yarn
-npm install -g gatsby-cli
+# npm install -g gatsby-cli

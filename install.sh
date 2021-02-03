@@ -27,13 +27,10 @@ brew upgrade --all
 ./install-nodejs-packages.sh
 
 # Install Python packages
-./install-python-packages.sh
-
-# Install Atom packages
-./install-atom-packages.sh
+#./install-python-packages.sh
 
 # Install ruby gems
-./install-ruby-gems.sh
+#./install-ruby-gems.sh
 
 # Install homebrew fonts
 ./install-brew-fonts.sh
@@ -45,15 +42,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 cd "$(dirname "${BASH_SOURCE}")";
 rsync --exclude ".git/" --exclude ".DS_Store" \
 	--exclude "init/" \
-	--exclude "install-atom-packages.sh" \
 	--exclude "install-brew-apps.sh" \
 	--exclude "install-brew-fonts.sh" \
 	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-store-apps.sh" \
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
-	--exclude "install-python-packages.sh" \
-	--exclude "install-ruby-gems.sh" \
 	--exclude "install.sh" \
  	--exclude "README.md" \
 	-avh --no-perms . ~;
