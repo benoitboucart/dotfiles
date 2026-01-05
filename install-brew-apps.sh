@@ -57,6 +57,8 @@ brew install vlc --cask
 #brew install rocket-chat --cask
 # brew install boostnote --cask
 # brew install station --cask
+brew install --cask microsoft-teams
+brew install --cask microsoft-outlook
 
 # Extensions & others
 #brew install padbury-clock --cask
