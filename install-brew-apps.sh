@@ -7,37 +7,37 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Caskroom versions
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 # Install some apps
 # brew install dropbox --cask
-brew install google-chrome --cask
+brew install --cask google-chrome
 #brew install box-sync --cask
 # brew install google-backup-and-sync --cask
-brew install firefox --cask
+brew install --cask firefox
 #brew install keepingyouawake --cask
 #brew install docker --cask
 # brew install atom --cask
 # brew install phpstorm --cask
-brew install spotify --cask
+brew install --cask spotify
 #brew install spotify-notifications --cask
 # brew install skype --cask
 #brew install messenger --cask
-brew install whatsapp --cask
+brew install --cask whatsapp
 #brew install transmission --cask
-brew install spectacle --cask
+brew install --cask spectacle
 #brew install graphql-playground --cask
 #brew install viscosity --cask
 #brew install sequel-pro-nightly --cask
 #brew install sketch --cask
-brew install figma --cask
+brew install --cask figma
 #brew install zeplin --cask
 #brew install kibako --cask
 #brew install alfred2 --cask
 #brew install knock --cask
 #brew install application-loader --cask
 # brew install rescuetime --cask
-brew install vlc --cask
+brew install --cask vlc
 #brew install sourcetree --cask
 #brew install bartender --cask
 #brew install transmit4 --cask
