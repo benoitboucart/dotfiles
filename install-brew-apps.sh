@@ -59,6 +59,7 @@ brew install vlc --cask
 # brew install station --cask
 brew install --cask microsoft-teams
 brew install --cask microsoft-outlook
+brew install --cask google-drive
 
 # Extensions & others
 #brew install padbury-clock --cask
