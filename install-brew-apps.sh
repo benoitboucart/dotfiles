@@ -25,7 +25,8 @@ brew install --cask spotify
 #brew install messenger --cask
 brew install --cask whatsapp
 #brew install transmission --cask
-brew install --cask spectacle
+#brew install --cask spectacle
+brew install --cask rectangle # alternatief voor deprecated spectacle
 #brew install graphql-playground --cask
 #brew install viscosity --cask
 #brew install sequel-pro-nightly --cask
