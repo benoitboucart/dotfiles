@@ -44,7 +44,7 @@ brew tap homebrew/versions
 # brew install dos2unix
 # brew install watch
 brew install yarn
-brew install mas
+#brew install mas
 brew install cask
 # brew install speedtest-cli
 
