@@ -38,7 +38,7 @@ brew install figma --cask
 #brew install application-loader --cask
 # brew install rescuetime --cask
 brew install vlc --cask
-brew install sourcetree --cask
+#brew install sourcetree --cask
 #brew install bartender --cask
 #brew install transmit4 --cask
 #brew install steam --cask
